@@ -9,7 +9,7 @@ Uma apliçãoção que utiliza os dados fornecidos dos clientes atraves do termi
 Fou utilizado a Linguagem JAVA Para aplicação 
 Aplicação de nivel basico
 EX da aplicação
-![Retorno](/ProjetoJava/ContaBanco/src/img/Captura%20de%20tela%202024-05-28%20182347.png)
+![](/ProjetoJava/ContaBanco/src/img/Captura%20de%20tela%202024-05-28%20182347.jpg)
 Obrigado por acompnhar 
 
 ## Dependency Management
