@@ -1,30 +1,36 @@
-import java.util.Locale;
+
 import java.util.Scanner;
 
+
 public class ContaTerminal {
+
     public static void main(String[] args) {
-        //criando o objeto scanner
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
-        
-        System.out.println("Digite seu nome");
-        String nome = scanner.next();
-        
-        System.out.println("Digite seu sobrenome");
-        String sobrenome = scanner.next();
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite sua idade");
-        int idade = scanner.nextInt();
-        
-        System.out.println("Digite sua altura");
-        double altura = scanner.nextDouble();
+        // Solicitar e ler o número da conta
+        System.out.print("Por favor, digite o número da Conta: ");
+        int numero = scanner.nextInt();
+        scanner.nextLine(); // Consumir a nova linha deixada pelo nextInt()
 
-    
-        //imprimindo os dados obtidos pelo usuario
-        System.out.println("Ola, " + nome.toUpperCase() + " " + sobrenome.toUpperCase() + " Que nome Feio da Porra!");
-        System.out.println("Tem " + idade + " anos " + " ta Velha em !");
-        System.out.println("Tua altura é " + altura + "cm " + " Tem nem tamanho");
+        // Solicitar e ler o número da agência
+        System.out.print("Por favor, digite o número da Agência: ");
+        String agencia = scanner.nextLine();
+
+        // Solicitar e ler o nome do cliente
+        System.out.print("Por favor, digite o nome do Cliente: ");
+        String nomeCliente = scanner.nextLine();
+
+        // Solicitar e ler o saldo da conta
+        System.out.print("Por favor, digite o saldo da Conta: ");
+        double saldo = scanner.nextDouble();
+
+        // Exibir mensagem final
+        String mensagem = String.format("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %d e seu saldo %.2f já está disponível para saque.",
+                                        nomeCliente, agencia, numero, saldo);
+
+        System.out.println(mensagem);
+
+        // Fechar o scanner
         scanner.close();
-
-        
     }
 }
