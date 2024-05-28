@@ -1,17 +1,16 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Bem vindo ao projeto Desenvolvido para aulas da DIO
 
-## Folder Structure
+## Descrição
 
-The workspace contains two folders by default, where:
+Uma apliçãoção que utiliza os dados fornecidos dos clientes atraves do terminal.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Fou utilizado a Linguagem JAVA Para aplicação 
+Aplicação de nivel basico
+EX da aplicação
+![Retorno](/ProjetoJava/ContaBanco/src/img/Captura%20de%20tela%202024-05-28%20182347.png)
+Obrigado por acompnhar 
 
 ## Dependency Management
 
